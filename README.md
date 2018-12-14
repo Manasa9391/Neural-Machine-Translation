@@ -16,8 +16,11 @@ Although big players like Google Translate and Microsoft Translator offer near-a
 5. Knwowledge on Google colab
 
 
-# Appoach
+# Approach
 The idea is to use one LSTM to read the input sequence, one timestep at a time, to obtain large fixed dimensional vector representation, and then to use another LSTM to extract the output sequence from that vector. The second LSTM (handles long term dependencies) is essentially a recurrent neural network language model except that it is conditioned on the input sequence. 
 
 
 The encoder creates a matrix representation of the sentence. The decoder takes this matrix as input and predicts the translation as output.
+
+Report:
+https://manasa9391.github.io/#0
